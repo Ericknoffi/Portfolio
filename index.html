@@ -1606,10 +1606,10 @@ opacity: 0.8
 const particlesMesh = new THREE.Points(particlesGeometry, particlesMaterial);
 scene.add(particlesMesh);
 // Add grid
-const gridHelper = new THREE.GridHelper(20, 20, 0x00fff2, 0x00fff2);
-gridHelper.material.opacity = 0.1;
-gridHelper.material.transparent = true;
-scene.add(gridHelper);
+// const gridHelper = new THREE.GridHelper(20, 20, 0x00fff2, 0x00fff2);
+//gridHelper.material.opacity = 0.1;
+//gridHelper.material.transparent = true;
+//scene.add(gridHelper);
 camera.position.z = 5;
 // Animation
 function animate() {
@@ -1647,3 +1647,4 @@ observer.observe(el);
 </body>
 
 </html>
+
